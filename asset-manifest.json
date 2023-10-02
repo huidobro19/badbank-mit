@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/badbank-mit/static/css/main.e7a2bb29.css",
+    "main.js": "/badbank-mit/static/js/main.ac7a3d3d.js",
+    "static/js/787.ad901894.chunk.js": "/badbank-mit/static/js/787.ad901894.chunk.js",
+    "static/media/imagen3.jpg": "/badbank-mit/static/media/imagen3.d1d587a9b30eff93b0f9.jpg",
+    "static/media/bob.jpg": "/badbank-mit/static/media/bob.1354147014bb0013d30e.jpg",
+    "static/media/stcoks.jpg": "/badbank-mit/static/media/stcoks.abf00311228b1261a88d.jpg",
+    "static/media/imagen1.jpg": "/badbank-mit/static/media/imagen1.e511c3b77fce2b2f6b48.jpg",
+    "static/media/imagen2.jpg": "/badbank-mit/static/media/imagen2.4b3ff25e968a0d39f66f.jpg",
+    "index.html": "/badbank-mit/index.html",
+    "main.e7a2bb29.css.map": "/badbank-mit/static/css/main.e7a2bb29.css.map",
+    "main.ac7a3d3d.js.map": "/badbank-mit/static/js/main.ac7a3d3d.js.map",
+    "787.ad901894.chunk.js.map": "/badbank-mit/static/js/787.ad901894.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e7a2bb29.css",
+    "static/js/main.ac7a3d3d.js"
+  ]
+}
