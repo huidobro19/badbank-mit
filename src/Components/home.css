@@ -1,0 +1,69 @@
+.bob {
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+
+
+  }
+  
+.bob-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ... Estilos existentes ... */
+
+.container-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  position: relative; /* Añadimos esto para que los elementos secundarios se posicionen de manera relativa a este contenedor */
+  font-family: 'Playfair Display', sans-serif;
+
+}
+
+.top-left-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main-content {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.stocks-image {
+  margin-top: 20px;
+  position: relative;
+  width: 1200px;
+  height: 500px;
+  background: url(../media/stcoks.jpg);
+  background-size: 100% 100%; /* Ajusta la imagen para llenar completamente el div */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen */
+  background-position: center; 
+  border-radius: 2%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+ 
+}
+
+.btn-container{
+  color:antiquewhite;
+}
+
+.background-img-1 {
+  background: url(../media/stcoks.jpg);
+  background-size: 100% 100%; /* Ajusta la imagen para llenar completamente el div */
+  background-repeat: no-repeat; /* Evita la repetición de la imagen */
+  background-position: center; 
+}

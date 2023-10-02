@@ -1,0 +1,35 @@
+body {
+  padding-bottom: 20px;
+}
+
+.navbar {
+  margin-bottom: 20px;
+}
+
+/* Add styles for the description */
+.description {
+  display: none;
+  position: absolute;
+  background: #fff;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  z-index: 1;
+}
+
+/* Show the description on hover */
+.nav-link:hover .description {
+  display: block;
+}
+
+/* Cambiar el color del texto cuando el enlace está activo y mantenerlo */
+.navbar-dark .navbar-nav .nav-link:active,
+.navbar-dark .navbar-nav .nav-link.active {
+  color: #ffffff!important; /* Cambia el color del texto a tu elección */
+}
+
+
+/* Elimina la animación de línea vertical en los botones de navegación */
+.nav-items:focus {
+  outline: none !important; /* Elimina el efecto de resaltado del foco */
+}

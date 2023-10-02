@@ -1,0 +1,23 @@
+.container-createAccount {
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    text-align: center; /* Centra el texto horizontalmente */
+    
+    justify-content: center; /* Centra verticalmente */
+  }
+
+
+  .container-Message {
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    text-align: center; /* Centra el texto horizontalmente */
+    height: 1vh; /* Opcional: ajusta la altura según tus necesidades */
+    justify-content: center; /* Centra verticalmente */
+
+  }
+
+  .message {
+    color: red
+  } 

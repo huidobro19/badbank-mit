@@ -1,0 +1,31 @@
+.container-deposit {
+    display: flex;
+    flex-direction: column; /* Apila los elementos verticalmente */
+    align-items: center; /* Centra horizontalmente */
+    text-align: center; /* Centra el texto horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    height: 30vh; /* Opcional: ajusta la altura según tus necesidades */
+  }
+  
+  /* deposit.css */
+  .alert {
+    width: 300px; /* Ancho deseado en píxeles */
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-top: 10px; /* Ajusta el margen superior según sea necesario */
+  }
+  
+  .alert svg {
+    width: 20px; /* Tamaño deseado para el ícono en píxeles */
+    height: 20px; /* Tamaño deseado para el ícono en píxeles */
+    margin-right: 10px;
+  }
+  
+  .alert div {
+    flex-grow: 1;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+  }
+  
